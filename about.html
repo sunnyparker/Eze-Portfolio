@@ -1,0 +1,52 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <div id="pict" class="container-centered">
+            <img id="mypic"src="{%static 'base/img/eze2.jpg' %}" alt="my image">
+        </div>
+        <div id="tabs">
+            <p>
+                    <span id="one">E</span>ze Sunday ifeanacho aka Sunnyparker. I am a Nigerian, a graduate of the University of Jos, Plateau. I love technology
+                because it is presently and the ever fast growing update to human civilization. Nothing is beyond the reach of the world wide web.
+            </p>
+            <p>
+                    Being a self-taught Html, Css, JavaScripts, Bootstrap, php and python programmer, I have always loved the idea of robots and mind-blowing gadgets
+                that think on their own. Now being a Physicist , I have made time to also learn programming on my own and build my dream. Learning keeps me going as I
+                want to keep improving and acquiring more skill for the future. The future is evolving and the technology growth is already so advanced, imagine it in
+                a few more years from now. I want to take part in that change and be a major contributor to the success of the world.
+            </p>
+            <p>
+                    Most of my free time is dedicated to learning more code and improving my skills. I further digged into web development from django backend which was
+                amazing for me and I love every part of it. After taking a whole course on django framework by Clever Programmer and some other resources too, I built my
+                first web application which was a blog.
+            </p>
+            <p>
+                    After that, I did more improvement on my django skills like knowing more about how django works. Basically just messing around trying to know what
+                everything does which turned out really being much fun. I had knowledge of how to design my frontend already. I learnt Html5, Css3, JavaScript, Bootstrap 4
+                and basic syntax for jQuery which was exciting because I could easily relate this to my python experience making JS easier to understand.
+            </p>
+            <p>
+                    After taking quality time to incrementally build my skills, I guarantee beautiful and responsive websites with fully-functional capabilities and
+                good content for startup businesses and also improve or create new amazing features to your already published web application. I am looking out to build
+                strong win-win relationship with my clients, so I always work hard and dedicated to delivering top quality context. I also have experience working
+                with SEO(Search Engine Optimisation) and SMM(Social Media Marketing), be rest assured of your content targeting your desired audience.
+            </p>
+            <p>
+                    You can go to my portfolio page <a href="{% url 'portfolio' %}">here</a> to see more detailed information about my skillset. Thank you for coming
+                to my website and do have a nice look.
+
+            </p>
+            <!-- <p><div>
+                    CONTACT ME ON:   
+                    <a id="head" href="https://www.whatsup.com/Eze-Sunday-Ifeanacho" class='navbar-brand'><i class="fab fa-whatsup"></i></a>
+                    <a id="head" href="https://www.instagram.com/sunnyparker_eze" class='navbar-brand'><i class="fab fa-instagram"></i></a>
+                    <a id="head" href="https://www.linkedin.com/in/eze-sunday-ifeanacho-38427a1a4/" class='navbar-brand'><i class="fab fa-linkedin"></i></a>
+                </div>
+            </p> -->
+        <a id="link" class="btn btn-outline-info" href="{% url 'hire' %}">SEND A MESSAGE TO EZE </a>
+
+        </div>
+    </div>
+{% endblock %}

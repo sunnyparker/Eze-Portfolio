@@ -1,0 +1,288 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid">
+        <div class="row">
+            <div id="tabs" class="col-sm-10 col-lg-3">
+                <h4>Tools</h4>
+                <hr>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>PyCharm</li>
+                    <li>Thonny</li>
+                    <li>Git Bash</li>
+                    <li>SublimeText</li>
+                </ul>
+            </div>
+            <div id="tabs" class="col-sm-10 col-lg-3">
+                <h4>Competent Skills</h4>
+                <hr>
+                <ul>
+                    <li>Python Language</li>
+                    <li>Django Framework</li>
+                    <li>Flask and APIs</li>
+                    <li>Mysql & Sqlite3 Database</li>
+                    <li>Postgresql Database</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap 4</li>
+                    <li>Wordpress</li>
+                </ul>
+            </div>
+            <div id="tabs" class="col-sm-10 col-lg-3">
+                <h4>Platforms(OS)</h4>
+                <hr>
+                <ul>
+                    <li>Android</li>
+                    <li>Ubuntu (Linux)</li>
+                    <li>Windows</li>
+                    <li>Mac OS</li>
+                    <li>IBM's z/OS mainframe</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h1 class="bg-dark card"><span>WORK HISTORY</span></h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="tabs">
+                <div class="col-lg-1">
+                    <img class="img-fluid" src="{% static 'img/portfolio/fiverr.png' %}" alt="">
+                </div>
+                <div class="row">
+                    <div class="text-left col-lg-3">
+                        <em>Freelance Python Programmer</em>
+                    </div>
+                    <div class="text-right col-lg-9">
+                        March 2017 - Present
+                    </div>
+                </div>
+                <hr>
+                <ul>
+                    <li>Create an e-Commerce website for Business Owners</li>
+                    <li>Create Blog and other Commercial website for Business Owners</li>
+                    <li>Scrape and extract data from any kind of website to be used on real-time data analysis</li>
+                    <li>Create web automation bots</li>
+                    <li>Working with Telegram API to develop chatbot softwares</li>
+                    <li>Write softwares for office task automation</li>
+                    <li>Debug and deliver python based assignments or projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="tabs">
+                <div class="col-lg-1">
+                    <img class="img-fluid" src="{% static 'img/portfolio/fiverr.png' %}" alt="">
+                </div>
+                <div class="row">
+                    <div class="text-left col-lg-3">
+                        <em>Freelance Web Developer</em>
+                    </div>
+                    <div class="text-right col-lg-9">
+                        June 2019 - Present
+                    </div>
+                </div>
+                <hr>
+                <ul>
+                    <li>Build Websites with Django framework</li>
+                    <li>Front End Web Development</li>
+                    <li>Debug and remove bugs from client's sites</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h1 class="bg-dark card"><span>MY PROJECTS</span></h1>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div id="tabs" class="col-lg-5">
+                    <a href="https://sunnyparker.github.io">
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="{% static 'base/img/github.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <h3>Portfolio Website</h3>
+                        </div>
+                        <hr>
+                        <p>My portfolio website which you are presently surfing on</p>
+                        <a class="small-muted" href="https://sunnyparker.github.io">Read more</a>
+                    </a>
+                </div>
+
+                <div id="tabs" class="col-lg-5">
+                    <a href="https://github.com/sunnyparker/Eze-CRUD/">
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="{% static 'base/img/github.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <h3> Employee Register Application</h3>
+                        </div>
+                        <hr>
+                        <p>A CRUD Employee application for Eze-Tech Investment. It is built to register employees and they respective roles in the Organization.</p>
+                        <a class="small-muted" href="https://github.com/sunnyparker/Eze-CRUD/">Read more</a>
+                    </a>
+                </div>
+
+                <div id="tabs" class="col-lg-5">
+                    <a href="https://github.com/sunnyparker/Table-Scraper.git">
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="{% static 'base/img/github.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <h3>Web-Scraping Tool</h3>
+                        </div>
+                        <hr>
+                        <p>A web scraper built on python libraries to extract information from websites organised into csv files</p>
+                        <a class="small-muted" href="https://github.com/sunnyparker/Table-Scraper.git">Read more</a>
+                    </a>
+                </div>
+
+                <div id="tabs" class="col-lg-5">
+                    <a href="https://github.com/sunnyparker/Telegram-Whatsapp.git">
+                        <div class="col-lg-4">
+                            <img class="img-fluid" src="{% static 'base/img/github.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <h3>Telegram-Whatsapp Bot</h3>
+                        </div>
+                        <hr>
+                        <p>This is a cross-platform python software sharing information between Telegram and Whatsapp making use of TelegramClientAPI and other features</p>
+                        <a class="small-muted" href="https://github.com/Pycomet/Telegram-Whatsapp.git">Read more</a>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h1 class="bg-dark card"><span>EDUCATION</span></h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="tabs">
+                <div class="row">
+                    <div class="text-left col-lg-5">
+                        <em>UNIVERSITY OF JOS, PLATEAU</em>
+                    </div>
+                    <div class="text-right col-lg-7">
+                        Graduated 2010
+                    </div>
+                     <p>
+                     Bachelor of Science in Physics(Education).
+                     </p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+        <div class="container">
+            <div id="tabs">
+                <div class="row">
+                    <div class="text-left col-lg-5">
+                        <em>ALISON,</em>
+                    </div>
+                    <div class="text-right col-lg-7">
+                        Graduated 2019
+                    </div>
+                     <p>
+                   Diploma in Python Programming.
+                     </p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+        <div class="container">
+            <div id="tabs">
+                <div class="row">
+                    <div class="text-left col-lg-5">
+                        <em>SKYLINE UNIVERSITY, KANO</em>
+                    </div>
+                    <div class="text-right col-lg-7">
+                        Graduated 2019
+                    </div>
+                    <p>
+                   Certificate of Participation in
+                   Artificial Intelligence and Robotics
+                    </p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+        <div class="container">
+            <div id="tabs">
+                <div class="row">
+                    <div class="text-left col-lg-5">
+                        <em>GOOGLE ANALYTICS ACADEMY</em>
+                    </div>
+                    <div class="text-right col-lg-7">
+                        Graduated 2018
+                    </div>
+                    <p>
+                   Advanced Diploma in Google Analytics.
+                    </p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+        <div class="container">
+            <div id="tabs">
+                <div class="row">
+                    <div class="text-left col-lg-5">
+                        <em>SIITGO</em>
+                    </div>
+                    <div class="text-right col-lg-7">
+                        Graduated 2018
+                    </div>
+                    <p>
+                   Diploma in Computer Programming.
+                    </p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+        <div class="container">
+            <div id="tabs">
+                <div class="row">
+                    <div class="text-left col-lg-5">
+                        <em>TROUBLESHOOTING INSTITUTE OF TECHNOLOGY, KANO</em>
+                    </div>
+                    <div class="text-right col-lg-7">
+                        Graduated 2018
+                    </div>
+                    <p>
+                   Higher Professional Diploma in Computer Networking and Maintenance.
+                    </p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
